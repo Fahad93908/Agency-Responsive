@@ -1,0 +1,391 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+.navbar-brand{
+  width: 15%;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+  position: relative;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #fed136;
+}
+.navbar-toggler span i{
+  color: #fff;
+}
+
+
+
+
+
+
+.navbar-light .navbar-nav .nav-link::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0;
+  background: rgb(255, 200, 0);
+  
+}
+.navbar-light .navbar-nav .nav-link::after{
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0;
+  background: rgb(255, 200, 0);
+  transition: .4s all ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link:hover::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 45%;
+  background: rgb(255, 200, 0);
+  transition: .4s all ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link:hover::after{
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  width: 45%;
+  background: rgb(255, 200, 0);
+
+}
+
+
+
+
+
+
+
+
+
+header{
+  background-image: url(../img/header-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  min-height: 100vh;
+}
+.bg{
+  color: #fff;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+
+}
+.btn-custom{
+  background: transparent;
+    border: 1px solid rgb(254, 209, 54);
+    margin: 0px;
+    padding: 15px 30px;
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+    transition: all 0.4s ease 0s;
+    width: 14%;
+    
+}
+.btn-custom:hover{
+  border: 1px solid rgb(254, 209, 54);
+  background-color: #fed136;
+  color: black;
+}
+.bg h2{
+  font-size: 40px;
+  font-weight: 400;
+}
+.bg h1{
+  font-size: 85px;
+  font-weight: 600;
+  margin: 40px 0px;
+}
+.icon{
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  font-size: 20px;
+  animation: updown 1s linear infinite;
+  animation-direction: alternate;
+}
+@keyframes updown{
+  0%{
+    top: 80%;
+  }
+  100%{
+    top: 90%;
+  }
+}
+.service_section h1{
+  font-size: 30px;
+  font-weight: 500;
+  color: #212529;
+  margin-top: 15px;
+}
+.service_section p{
+  color: #212529;
+}
+.service{
+
+}
+.single_icon{
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  background: #FFC800;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.single_icon i{
+  font-size: 50px;
+    color: #fff;
+}
+.portfolio{
+background-color: #F8F9FA;
+}
+.portfolio h1{
+
+}
+.portfolio p{
+  padding-bottom: 25px;
+}
+.port_1{
+background-color:#fff;
+}
+.port_1 h1{
+  font-size: 35px;
+  padding-top: 20px;
+}
+.port_1 p{
+
+}
+.port_img{
+ position: relative;
+}
+.port_img::before{
+  content: '';
+  right:0%;
+  bottom:0%;
+  width: 0%;
+  height:0%;
+  background: #E6B400;
+  position: absolute;
+  opacity: .5;
+  transition: .4s all ease-in-out;
+}
+.port_img:hover::before{
+width: 100%;
+height: 100%;
+
+  
+}
+.port_img img{
+
+}
+.plus_icon{
+  position: absolute;
+  color: #fff;
+  font-size: 50px;
+  top: 60%;
+  left: 50%;
+ 
+  transform: translate(-50%,-50%);
+  opacity: 0%;
+  transition: .4s all ease-in-out;
+}
+
+.port_img:hover .plus_icon{
+  
+  opacity: 100%;
+  top: 50%;
+ 
+}
+.about_content{
+  text-align: right;
+    padding-right: 70px;
+}
+.about_content h4{
+  font-weight: 800;
+}
+
+.about_img{
+
+}
+.about_img img{
+  border-radius: 100%;
+}
+.about_content1{
+text-align: left;
+}
+.img_control{
+  text-align: right;
+}
+.about_content1 h4{
+  font-weight: 800;
+}
+.Our_team{
+  background-color: #F8F9FA;
+}
+.Our_team h1{
+
+}
+.Our_team p{
+
+}
+.social_icon{
+  width: 60%;
+  /* margin: auto; */
+ 
+  margin-left: 16%;
+
+}
+.social_icon ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+.social_icon ul li{
+
+}
+.social_icon ul li a{
+  text-decoration: none;
+}
+.team_img{
+
+}
+.team_img img{
+  border-radius: 100%;
+  padding: 15px;
+}
+.team_content{
+  padding: 70px;
+}
+.facebook{
+  background: #212529;
+  color: white;
+  border-radius: 100%;
+  font-size: 25px;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.twitter{
+  background: #212529;
+    color: white;
+    border-radius: 100%;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.linkedin{
+  background: #212529;
+    color: white;
+    border-radius: 100%;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Clients_Logo{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Clients_Logo img{
+  width: 75%;
+  margin: auto;
+  display: flex;
+}
+.contact{
+background-image: url(../img/call-to-action-bg-2.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+.contact h1{
+  color: #fff;
+}
+.contact p{
+  color: #fff;
+}
+.input_control{
+}
+.input_control input{
+  margin-bottom: 20px;
+  height: 75px;
+}
+.form-control:focus{
+  box-shadow: none;
+}
+.textare{
+  width: 100%;
+  /* background: transparent; */
+  border: none;
+  border: 1px solid black;
+  outline: none;
+}
+.send_button{
+  width: 16%;
+  margin: auto;
+}
+.send_button button{
+  padding: 10px 30px;
+  background: transparent;
+  background: #ffc800;
+  color: black;
+  outline: none;
+  border: none;
+  border: 1px solid #ffc800;
+  
+  transition: .4s all ease-in-out;
+}
+.send_button button:hover{
+  background-color: #a17f01;
+  border: 1px solid #a17f01;
+
+}
+.footer_li{
+  text-align: end;
+}
+.footer_li ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.footer_li ul li{
+
+}
+.footer_li ul li a{
+  text-decoration: none;
+  color: black;
+}
+.footer_control{
+  line-height: 10px;
+    align-items: center;
+}

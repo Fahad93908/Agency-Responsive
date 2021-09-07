@@ -1,0 +1,87 @@
+
+
+
+@media(max-width:767px) and (min-width:569px){
+    .btn-custom{
+        width: 35%;
+    }
+    .send_button{
+        width: 215px ;
+        margin-top: 20px;
+    }
+    .ft_copy{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .ft_copy1{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .social_icon {
+        width: 41%;
+        margin: auto;
+        margin-left: 25%;
+        margin-bottom: 40px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:568px) and (min-width:0px){
+    .navbar-light .navbar-nav .nav-link{
+        display: inline-block;
+       
+    }
+    .nav-item{
+        text-align: center;
+    }
+    .btn-custom{
+        width: 50%;
+    }
+    .send_button {
+        width: 45%;
+        margin: auto;
+        padding-top: 50px;
+    }
+    .ft_copy{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .ft_copy1{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .social_icon {
+        width: 35%;
+        margin: auto;
+       
+        padding-bottom: 30px;
+    }
+}
